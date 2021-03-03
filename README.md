@@ -9,4 +9,4 @@
 4. [2.26.21 Response 4](https://sglott.github.io/Data310_workbook/2.26.21_Response4.html)
 
 ## Projects
-1. [Project 1](https://sglott.github.io/Data310_workbook/Project.html)
+1. [Project 1](https://sglott.github.io/Data310_workbook/Project1.html)
