@@ -16,6 +16,7 @@ and only had NaN values for the loss. I dropped those 8 listings as well.
   I decided that having a location variable was more worth it than having 400 data points for running the model. 
   
 ![Detroit Addresses](https://sglott.github.io/Data310_workbook/detroithomes.png)
+##### Figure 1. Mapped Addresses using converted latitude and longitude
 I created a webmap for all of the addresses, but I couldn't figure out how to host a .html file on github, so here's a screenshot of the web map. The homes are grouped
 and when you zoom in on the map, it shows you the homes for sale. 
 
@@ -49,4 +50,19 @@ because I thought it might be redundant for the model. The model ran for 500 epo
     p = model.predict(xs)
 
 ### Model Output
+The model was not very accurate. The MSE is 52257562878.595474. Even though the model wasn't very accurate, it under and over predicted about the same number of homes. It under predicted 146 and over predicted 162. The houses that the model underpredicted the most were the most expensive houses and the houses that were overpredicted tended to be the least expensive. 
+
+![ActualvsPredicted](https://sglott.github.io/Data310_workbook/ActualPredicted.png)
+##### Figure 2. Listed House Prices compared to Model Predicted House Prices (USD). Notice the difference in axis scales.
+Points plotted above the line are over predicted, points plotted below the line are underpredicted. 
+
+![Difference](https://sglott.github.io/Data310_workbook/Difference.png)
+##### Figure 3. Listed House Prices compared to Difference in price vs. predicted. Notice the difference in axis scales.
+Houses plotted below zero are underpredicted and thus are a bad value for the home owners. Houses plotted above zero are over predicted and would be good value for home owners. The graph is pretty hard to read because some of the most expensive houses were so under predicted. 
+
+### Best Values for current Homeowners: Homes that were over predicted
+![GoodValue](https://sglott.github.io/Data310_workbook/GoodValue.png)
+
+### Worst Values for current Homeowners: Homes that were under predicted
+![BadValue](https://sglott.github.io/Data310_workbook/BadValue.png)
 
