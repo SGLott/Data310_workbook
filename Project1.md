@@ -70,6 +70,6 @@ Houses plotted below zero are underpredicted and thus are a bad value for the ho
 ![GoodValue](https://sglott.github.io/Data310_workbook/GoodValueLarger.png)
 
 ### Worst Values for current Homeowners: Homes that were under predicted
-![BadValue](https://sglott.github.io/Data310_workbook/BadValue.png)
+![BadValue](https://sglott.github.io/Data310_workbook/WorstValuesLarger.png)
 
 
