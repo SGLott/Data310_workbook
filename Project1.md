@@ -67,8 +67,9 @@ Points plotted above the line are over predicted, points plotted below the line 
 Houses plotted below zero are underpredicted and thus are a bad value for the home owners. Houses plotted above zero are over predicted and would be good value for home owners. The graph is pretty hard to read because some of the most expensive houses were so under predicted. 
 
 ### Best Values for current Homeowners: Homes that were over predicted
-![GoodValue](https://sglott.github.io/Data310_workbook/GoodValue.png)
+![GoodValue](https://sglott.github.io/Data310_workbook/GoodValueLarger.png)
 
 ### Worst Values for current Homeowners: Homes that were under predicted
 ![BadValue](https://sglott.github.io/Data310_workbook/BadValue.png)
+
 
