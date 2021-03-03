@@ -52,8 +52,14 @@ because I thought it might be redundant for the model. The model ran for 500 epo
 ### Model Output
 The model was not very accurate. The MSE is 52257562878.595474. Even though the model wasn't very accurate, it under and over predicted about the same number of homes. It under predicted 146 and over predicted 162. The houses that the model underpredicted the most were the most expensive houses and the houses that were overpredicted tended to be the least expensive. 
 
+When I ran the model without considering location, the MSE was 48338586251.65768, which is actually better. Perhaps if I had included both longitude and latitude, it would have increased the accuracy of my model instead of making it less accurate. 
+
 ![ActualvsPredicted](https://sglott.github.io/Data310_workbook/ActualPredicted.png)
-##### Figure 2. Listed House Prices compared to Model Predicted House Prices (USD). Notice the difference in axis scales.
+##### Figure 2. Listed House Prices compared to Model Predicted House Prices (USD) when model includes latitude. Notice the difference in axis scales.
+Points plotted above the line are over predicted, points plotted below the line are underpredicted. 
+
+![ActualvsPredicted](https://sglott.github.io/Data310_workbook/predictactualnolat.png)
+##### Figure 2. Listed House Prices compared to Model Predicted House Prices (USD) when model has 3 variables (does not consider latitude). Notice the difference in axis scales.
 Points plotted above the line are over predicted, points plotted below the line are underpredicted. 
 
 ![Difference](https://sglott.github.io/Data310_workbook/Difference.png)
