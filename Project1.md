@@ -59,11 +59,11 @@ When I ran the model without considering location, the MSE was 48338586251.65768
 Points plotted above the line are over predicted, points plotted below the line are underpredicted. 
 
 ![ActualvsPredicted](https://sglott.github.io/Data310_workbook/predictactualnolat.png)
-##### Figure 2. Listed House Prices compared to Model Predicted House Prices (USD) when model has 3 variables (does not consider latitude). Notice the difference in axis scales.
+##### Figure 3. Listed House Prices compared to Model Predicted House Prices (USD) when model has 3 variables (does not consider latitude). Notice the difference in axis scales.
 Points plotted above the line are over predicted, points plotted below the line are underpredicted. 
 
 ![Difference](https://sglott.github.io/Data310_workbook/Difference.png)
-##### Figure 3. Listed House Prices compared to Difference in price vs. predicted. Notice the difference in axis scales.
+##### Figure 4. Listed House Prices compared to Difference in price vs. predicted. Notice the difference in axis scales.
 Houses plotted below zero are underpredicted and thus are a bad value for the home owners. Houses plotted above zero are over predicted and would be good value for home owners. The graph is pretty hard to read because some of the most expensive houses were so under predicted. 
 
 ### Best Values for current Homeowners: Homes that were over predicted
