@@ -7,7 +7,7 @@ Located in the Middle East, Jordan is a country with a population of 6.5 million
 
 ### Project Introduction/Summary:
 Using DHS (Demographics and Health) Program data, I downloaded 2017-18 Standard DHS data for Jordan. I used four models to test the data to better understand wealth
-distribution in Jordan. The models we used were a logistic regression model, a random forest model, a linear estimator logistic regression, and a gradient boosting model. I compared the four models against each other to see which model best predicted the true wealth conditions in Jordan. Factors input into the models were: household size, gender, age, education level, and familial wealth. 
+distribution in Jordan. The models we used were a logistic regression model, a random forest model, a linear estimator logistic regression, and a gradient boosting model. I compared the four models against each other to see which model best predicted the wealth categories in Jordan. 
 
 ### Project Questions
 ##### Penalized Logistic Regression
@@ -70,4 +70,10 @@ distribution in Jordan. The models we used were a logistic regression model, a r
 
 
 ##### Comparison of Four Models
-* Analyze all four models. According to the evaluation metrics, which model produced the best results? Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
+* Analyze all four models. According to the evaluation metrics, which model produced the best results? 
+   * Model four performed the best because it had an area under the curve of 0.77.
+   
+* Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
+   * THe model was able to better predict the highest and lowest wealth classes for Jordan. This makes sense because characteristics for each would be more defining than characteristics corresponding to middle wealth individuals. In order to imropove the model for predicting wealth, you might need to consider integrating another factor that may have a high correlation to wealth. Some categories that were present in my dataset that might correspond to wealth are highest education level achieved and if a house had electricity. 
+
+
