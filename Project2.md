@@ -74,6 +74,6 @@ distribution in Jordan. The models we used were a logistic regression model, a r
    * Model four performed the best because it had an area under the curve of 0.77.
    
 * Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
-   * THe model was able to better predict the highest and lowest wealth classes for Jordan. This makes sense because characteristics for each would be more defining than characteristics corresponding to middle wealth individuals. In order to imropove the model for predicting wealth, you might need to consider integrating another factor that may have a high correlation to wealth. Some categories that were present in my dataset that might correspond to wealth are highest education level achieved and if a house had electricity. 
+   * The model was able to better predict the highest and lowest wealth classes for Jordan. This makes sense because characteristics for each would be more defining than characteristics corresponding to middle wealth individuals. In order to imropove the model for predicting wealth, you might need to consider integrating another factor that may have a high correlation to wealth. Some categories that were present in my dataset that might correspond to wealth are highest education level achieved and if a house had electricity. 
 
 
