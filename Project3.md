@@ -57,6 +57,10 @@ The linear regression model just barely predicted population better than the ran
 #### RF Root Mean Squared Error
 ![RFrmse](https://sglott.github.io/Data310_workbook/rmseRF.png)
 
-Both the MAE and RMSE further emphasize the underprediction in the urban areas. The Random Forest model did not perform better. Maybe if we narrow down the view from the whole country, to just the most populated area, the model will perform better. 
+Both the MAE and RMSE further emphasize the underprediction in the urban areas. The Random Forest model did not perform better. If we zoom in on the most populated area, we can see the error more clearly. 
 
 ## Spatial Variation
+![diffAmman](https://sglott.github.io/Data310_workbook/diffAmman.png)
+
+The spatial variation in the prediction is most likely because the most important variable to the models was night time lights. There will be more concentrated light in cities, but that doesn't account for building height. If there is a sky scraper, there may be more people living in that one square km than the model predicts because there isn't as much light being emitted per person as in rural areas. 
+
