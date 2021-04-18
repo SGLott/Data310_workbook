@@ -62,5 +62,5 @@ Both the MAE and RMSE further emphasize the underprediction in the urban areas. 
 ## Spatial Variation
 ![diffAmman](https://sglott.github.io/Data310_workbook/diffAmman.png)
 
-The spatial variation in the prediction is most likely because the most important variable to the models was night time lights. There will be more concentrated light in cities, but that doesn't account for building height. If there is a sky scraper, there may be more people living in that one square km than the model predicts because there isn't as much light being emitted per person as in rural areas. 
+The spatial variation in the prediction is most likely because the most important variable to the models was night time lights. There will be more concentrated light in cities, but that doesn't account for building height. If there is a sky scraper, there may be more people living in that one square km than the model predicts because there isn't as much light being emitted per person as in rural areas.
 
