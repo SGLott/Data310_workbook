@@ -17,3 +17,4 @@
 1. [Project 1](https://sglott.github.io/Data310_workbook/Project1.html)
 2. [Project 2](https://sglott.github.io/Data310_workbook/Project2.html)
 3. [Project 3](https://sglott.github.io/Data310_workbook/Project3.html)
+4. [Project 4: Final Project Introduction](https://sglott.github.io/Data310_workbook/Project4.html)
