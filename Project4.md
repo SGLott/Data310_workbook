@@ -1,4 +1,4 @@
-# Project 4
+# Project 4 Outline
 
 ## Problem Statement:
 Ground penetrating radar (GPR) is a tool used to determine changes in sediment properties, such as mineralogy, grain size, and water content, under the surface of the earth by sending radar waves underground and measuring their time to return. The resultant GPR profiles (Figure 1) show a picture of the structure of sediment under the earth’s surface. The orientation of features within a radargram can give us information about how land formed through time.
@@ -30,3 +30,6 @@ I plan on using the same model structure as the study because they were able to 
 
 ## Conclusion about predicted Model Performance:
 I predict that my model will not perform as well as the study because the features I am aiming at identifying with the model are not as differentiated as the parabolas that the study was trying to identify. Instead, I am asking my model to identify important features, which in my radargram are steeply dipping reflections. Most of my profiles have steeply dipping reflections, so I am interested in seeing what features the model will identify as most important compared to my own interpretations. 
+
+### References
+S. Park, J. Kim, S. Jeong and S. Park, "GPR Data-Based Computer Vision for the Detection of Material Buried Underground," 2019 3rd International Conference on Smart Grid and Smart Cities (ICSGSC), 2019, pp. 41-44, doi: 10.1109/ICSGSC.2019.00-21.
