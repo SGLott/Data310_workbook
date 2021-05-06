@@ -33,3 +33,5 @@ I predict that my model will not perform as well as the study because the featur
 
 ### References
 S. Park, J. Kim, S. Jeong and S. Park, "GPR Data-Based Computer Vision for the Detection of Material Buried Underground," 2019 3rd International Conference on Smart Grid and Smart Cities (ICSGSC), 2019, pp. 41-44, doi: 10.1109/ICSGSC.2019.00-21.
+
+M. Pham and S. Lefèvre, "Buried Object Detection from B-Scan Ground Penetrating Radar Data Using Faster-RCNN," IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium, 2018, pp. 6804-6807, doi: 10.1109/IGARSS.2018.8517683.
