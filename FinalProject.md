@@ -8,4 +8,8 @@ Ground penetrating radar (GPR) is a tool used to determine changes in sediment p
 A) Processed and B) interpreted GPR profile from east-central part of study area (Notated in Figure 1 as Figure 11). 
 Notice three different sequences of obliquely dipping reflectors. In interpreted profile, different dips and directions indicate different environments of deposition.
 
+### Presentation Recording
+[Final Presentation Video on YouTube](https://youtu.be/bncq5uhIf7M)
+
 ### Presentation Slides
+[Download Presentation slides used in Recording](https://sglott.github.io/Data310_workbook/Presentation1.pptx)
